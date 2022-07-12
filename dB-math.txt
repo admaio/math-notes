@@ -1,0 +1,13 @@
+# Notes on dB arithmetic
+#-----------------------
+
+0 dBm = 1mW
+0 dBW = 1W = 30 dBm
+0 dB = 1
+
+P_{dBm} = 10 log_10 (P_{W}/1mW) =  10 log_10 (1000* P_{W}/1W) = 30 + 10 log_10 (P_{W}/1W) = 30 + P_{dBW}  = 30 dB + P_{dBW}
+P_{dBW} = 10 log_10 (P_{W}/1W)
+R_{dB} = 10 log_10 (R), R = P1/P2 (a ratio)
+
+10 dBm + 10 dB = 20 dBm
+10 dBm + 10 dBm = no
